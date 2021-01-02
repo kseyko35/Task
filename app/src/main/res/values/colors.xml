@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b94430</color>
+    <color name="colorPrimaryDark">#b94430</color>
+    <color name="colorAccent">#b94430</color>
+    <color name="txtColor">#ed1c24</color>
+    <color name="tintColor">#b94430</color>
+    <color name="rowBckColor">#f4f4f4</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/all">
+
+    <fragment
+        android:id="@+id/all"
+        android:name="com.example.veriparktask.view.fragment.AllFragment"
+        android:label="@string/all"
+        tools:layout="@layout/fragment_all">
+        <action
+            android:id="@+id/action_all_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/increasing"
+        android:name="com.example.veriparktask.view.fragment.IncreasingFragment"
+        android:label="@string/increasing"
+        tools:layout="@layout/fragment_increasing">
+        <action
+            android:id="@+id/action_increasing_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/decreasing"
+        android:name="com.example.veriparktask.view.fragment.DecreasingFragment"
+        android:label="@string/decreasing"
+        tools:layout="@layout/fragment_decreasing">
+        <action
+            android:id="@+id/action_decreasing_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/volume30"
+        android:name="com.example.veriparktask.view.fragment.Volume30Fragment"
+        android:label="@string/volume_30"
+        tools:layout="@layout/volume30_fragment">
+        <action
+            android:id="@+id/action_volume30Fragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/volume50"
+        android:name="com.example.veriparktask.view.fragment.Volume50Fragment"
+        android:label="@string/volume_30"
+        tools:layout="@layout/volume50_fragment">
+        <action
+            android:id="@+id/action_volume50Fragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/volume100"
+        android:name="com.example.veriparktask.view.fragment.Volume100Fragment"
+        android:label="@string/volume_100"
+        tools:layout="@layout/volume100_fragment">
+        <action
+            android:id="@+id/action_volume100Fragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.veriparktask.view.fragment.DetailFragment"
+        android:label="@string/detailBarHeader"
+        tools:layout="@layout/detail_fragment" />
+
+</navigation>
