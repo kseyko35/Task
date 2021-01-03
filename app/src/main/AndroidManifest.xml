@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.activity.NavDrawActivity"
+            android:name="com.example.veriparktask.ui.view.activity.NavDrawActivity"
             android:label="@string/title_activity_nav_draw"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".view.activity.MainActivity">
+        <activity android:name="com.example.veriparktask.ui.view.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/all"
-        android:name="com.example.veriparktask.view.fragment.AllFragment"
+        android:name="com.example.veriparktask.ui.view.fragment.AllFragment"
         android:label="@string/all"
         tools:layout="@layout/fragment_all">
         <action
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/increasing"
-        android:name="com.example.veriparktask.view.fragment.IncreasingFragment"
+        android:name="com.example.veriparktask.ui.view.fragment.IncreasingFragment"
         android:label="@string/increasing"
         tools:layout="@layout/fragment_increasing">
         <action
@@ -33,7 +33,7 @@
 
     <fragment
         android:id="@+id/decreasing"
-        android:name="com.example.veriparktask.view.fragment.DecreasingFragment"
+        android:name="com.example.veriparktask.ui.view.fragment.DecreasingFragment"
         android:label="@string/decreasing"
         tools:layout="@layout/fragment_decreasing">
         <action
@@ -46,7 +46,7 @@
 
     <fragment
         android:id="@+id/volume30"
-        android:name="com.example.veriparktask.view.fragment.Volume30Fragment"
+        android:name="com.example.veriparktask.ui.view.fragment.Volume30Fragment"
         android:label="@string/volume_30"
         tools:layout="@layout/volume30_fragment">
         <action
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/volume50"
-        android:name="com.example.veriparktask.view.fragment.Volume50Fragment"
+        android:name="com.example.veriparktask.ui.view.fragment.Volume50Fragment"
         android:label="@string/volume_30"
         tools:layout="@layout/volume50_fragment">
         <action
@@ -70,7 +70,7 @@
     </fragment>
     <fragment
         android:id="@+id/volume100"
-        android:name="com.example.veriparktask.view.fragment.Volume100Fragment"
+        android:name="com.example.veriparktask.ui.view.fragment.Volume100Fragment"
         android:label="@string/volume_100"
         tools:layout="@layout/volume100_fragment">
         <action
@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.veriparktask.view.fragment.DetailFragment"
+        android:name="com.example.veriparktask.ui.view.fragment.DetailFragment"
         android:label="@string/detailBarHeader"
         tools:layout="@layout/detail_fragment" />
 
